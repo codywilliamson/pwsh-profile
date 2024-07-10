@@ -1,4 +1,4 @@
-$scripts = "C:\Users\Cody\source\spectacl3\scripts\modules"
+$scripts = "totallyDidntPutMyPath/Here"
 $isAdmin = $false
 
 # Import-Module -Name "$scripts\path\to\module.ps1"
