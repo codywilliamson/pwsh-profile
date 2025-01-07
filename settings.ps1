@@ -268,6 +268,9 @@ function prompt {
 
 Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
+Set-PSReadLineOption -BellStyle None
+Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionViewStyle ListView
 Set-PSReadLineKeyHandler -Key '(', '{', '[' `
     -BriefDescription InsertPairedBraces `
     -LongDescription "Insert matching braces" `
